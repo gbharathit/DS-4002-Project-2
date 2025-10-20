@@ -2,7 +2,7 @@
 
 ## Data Summary
 
-Our dataset consists of the means of the maximum and minimum temperatures of each month in a certain year. Since there is an observation for each unique month and year from 2000-2023, there are a total of 288 rows. For each row, there are five columns, three of which help organize the month and year of the observations. One of the other columns gives the mean of the maximum temperatures in that month, while the last one gives the mean of the minimum temperatures in that month. Our data is in a CSV file, which can be find in our Github repository: DS-4002-Project-2 /DataFolder / AverageTemps.csv
+Our dataset consists of the means of the maximum and minimum temperatures of each month in a certain year. Since there is an observation for each unique month and year from 2000-2023, there are a total of 288 rows. For each row, there are five columns, three of which help organize the month and year of the observations. One of the other columns gives the mean of the maximum temperatures in that month, while the last one gives the mean of the minimum temperatures in that month. Our data is in a CSV file, which can be find in our Github repository: DS-4002-Project-2 / DataFolder / AverageTemps.csv https://github.com/gbharathit/DS-4002-Project-2
 
 ## Provenance
 
