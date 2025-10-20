@@ -10,10 +10,10 @@ This repository contains everything needed to reproduce the analyses and results
 ## Section 1: Software and platform
 
 **Software Used:**
-- R Studio (version X.X.X) for data cleaning, exploratory analysis, and ARIMA modeling.
+- R Studio (updated version) for data cleaning, exploratory analysis, and ARIMA modeling.
 - Git for version control and GitHub for hosting.
 
 **Add-on R Packages Required:**  
 Install with `install.packages()` in R if not already installed:  
 ```R
-install.packages(c("tidyverse", "forecast", "ggplot2", "readr", "lubridate"))
+install.packages(c("tidyverse", "forecast", "ggplot2", "readr"))
