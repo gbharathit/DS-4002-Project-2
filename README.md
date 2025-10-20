@@ -30,7 +30,7 @@ This repository follows the TIER Protocol 4.0 structure to ensure reproducibilit
 
 ## Section 2: Repository Structure
 
-The repository is organized into four main folders (`SCRIPTS`, `DATA`, `OUTPUT`, and the top-level README) to match the TIER Protocol.
+The repository is organized into four main folders (`SCRIPTS`, `DATA`, `OUTPUT`, and the main README) to match the Protocol.
 
 
 
