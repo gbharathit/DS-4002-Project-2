@@ -21,10 +21,10 @@ There are no ethical considerations because our dataset deals with climate and t
 | Column | Description | Potential Response |
 | :------- | :------- | :------- |
 | Month_Year | Month abbreviation and year of when temperatures were collected | Jan_2000, Oct_2014, Jun_2023 |
-| Year | Title of the product being reviewed | Nature's Way Oregano Oil, Zand Herbal Mist Throat Spray |
-| Month | Price of the product being reviewed | 99.95, 50|
-| Max_Value | Profile name of the reviewer | C. C. Bailey, Dark Avenger|
-| Min_Value | Score of the review (scale of 1-5) | 1, 2, 3, 4, 5|
+| Year | Year of when temperatures were collected | 2000, 2010, 2023 |
+| Month | Month abbreviation of when temperatures were collected | Jan, Jul, Dec|
+| Max_Value | Mean maximum temperatures of each month in a certain year, rounded to the nearest tenth | 47.9, 64.8, 80.9|
+| Min_Value | Mean minimum temperatures of each month in a certain year, rounded to the nearest tenth | 20.9, 38.4, 76.8|
 
 ## Exploratory Plots
 ![Wordcloud](../OUTPUT/1wordcloud.png)
