@@ -6,7 +6,7 @@ Our dataset consists of the means of the maximum and minimum temperatures of eac
 
 ## Provenance
 
-The dataset originates from the National Oceanic and Atmospheric Administration (NOAA), “Climate” National Weather Service, which includes average temperature for each month from January of 2000 to September 2025. Initially, there was a different dataset for average minimum temperatures and average maximum temperatures. We decided to merge these into one dataset, removing repetitive columns. We also have begun applying time series formatting to our data, so that the data is displayed in a grid format with columns representing months and rows representing years. Because we do not have data for the entire year of 2025, data from this year has been removed. We also had to convert data from the NOAA website into a suitable CSV, since it was not in a downloadable format. We used AI tools in order to copy and paste the original data from the website and create code that would make this data into a table in R that we could then export to a CSV. ****
+The dataset originates from the National Oceanic and Atmospheric Administration (NOAA), “Climate” National Weather Service, which includes average temperature for each month from January of 2000 to September 2025. Initially, there was a different dataset for average minimum temperatures and average maximum temperatures. We decided to merge these into one dataset, removing repetitive columns. We also have begun applying time series formatting to our data, so that the data is displayed in a grid format with columns representing months and rows representing years. Because we do not have data for the entire year of 2025, data from this year has been removed. We also had to convert data from the NOAA website into a suitable CSV, since it was not in a downloadable format. We used AI tools in order to copy and paste the original data from the website and create code that would make this data into a table in R that we could then export to a CSV.
 
 ## License
 
@@ -27,11 +27,14 @@ There are no ethical considerations because our dataset deals with climate and t
 | Min_Value | Mean minimum temperatures of each month in a certain year, rounded to the nearest tenth | 20.9, 38.4, 76.8|
 
 ## Exploratory Plots
-![Wordcloud](../OUTPUT/1wordcloud.png)
-This word cloud, obtained by finding which words appear the most often in reviews, quickly shows that reviews either focused on loving a product or thinking a product was bad. There are also a lot of words that point out what most of the functionality of the health-related products are.
+![JanTrends](../OUTPUT/1jantrends.png)
+We identified January and June to see if there has been a consistent increase in temperatures in both summer and winter. As we can see, despite there being some fluctuations in the data, the general trend for both average minimum and maximum temperatures in January has been increasing. 
 
-![Boxplot](../OUTPUT/3boxplot.png)
-This box plot shows that a higher compound score generally correlates with a better review score.
+![JunTrends](../OUTPUT/2juntrends.png)
+Again, we see that the general trend for both average minimum and maximum temperatures in June has also been increasing. It is interesting though that the temperatures took a slight dip in June 2024, which is something our model might not account for due to the general increasing trend.
 
-![Scatterplot](../OUTPUT/2scatterplot.png)
-This scatter plot shows the relationship between review score and review length (number of words), with points colored by sentiment category (positive, neutral, negative). It highlights patterns in how review length varies with sentiment and star rating, providing insight into whether longer reviews tend to express stronger positive or negative opinions. This complements our other exploratory plots by adding a structural perspective on review text, supporting feature selection for predictive modeling.
+![MaxTimeSeries](../OUTPUT/3maxtimeseries.png)
+Removing seasonality allows us to see what the trend is over time for both minimum and maximum temperatures from 2000 to 2023 (second row in both graphs). The trends for average maximum data show an increase in temperatures over the years. Seasonality component is the third row in both graphs, which shows there is a clear and consistent seasonality trend as is expected with weather data. 
+
+![MinTimeSeries](../OUTPUT/4mintimeseries.png)
+Again, we see that the trends for average minimum data also show an increase in temperatures over the years. Seasonality is also present in this data, which again makes sense due to the fact that we are dealing with weather
