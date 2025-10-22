@@ -9,6 +9,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+This file takes in our dataset from the NOAA website and cleans it to prepare for analysis and perform EDA
+
 We need to merge average minimum and maximum temperatures for each month into one dataset, which we will save as AverageTemps.csv. This includes all data from 2000-2024. 
 ```{r}
 mintemp <- read.csv("C:\\Users\\gbhar\\OneDrive - University of Virginia\\ds 4002\\mean_min_monthly_temps_2000_2025.csv")
@@ -103,3 +105,4 @@ mintemp_decomposed <- decompose(mintemp_timeseries)
 plot(mintemp_decomposed)
 plot(mintemp_timeseries - mintemp_decomposed$seasonal)
 ```
+
