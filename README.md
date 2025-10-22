@@ -18,6 +18,21 @@ This repository contains everything needed to reproduce the analyses and results
 - `rmarkdown`, `knitr` (rendering reports) , `vader`, `forecast`
 
 ## Section 2: Map of Documentation
+1. DataFolder
+AverageTemps.csv – Full dataset with months and years, as well as the mean maximum and minimum temperature values used in analysis. <br>
+Metadata.md – Metadata description file. <br>
+mean_max_monthly_temps_2000_2025.csv – Just the mean maximum monthly temperature data. <br>
+mean_min_monthly_temps_2000_2025.csv – Just the mean mimimum monthly temperature data. <br>
+2. OUTPUT
+1jantrends.png – Scatter plot with line of best fit of the mean minimum and maximum temperatures in January from 2000-2025. <br>
+2juntrends.png – Scatter plot with line of best fit of the mean minimum and maximum temperatures in June from 2000-2025. <br>
+3maxtimeseries.png – Decomposition of the additive time series of our maximum temperature data, which shows seasonal and nonseasonal trends. <br>
+4mintimeseries.png – Decomposition of the additive time series of our minimum temperature data, which shows seasonal and nonseasonal trends. <br>
+6ModelPDF.pdf – Full project analysis for building time series model with minimum and maximum temperature data. <br>
+3. SCRIPTSFolder
+Data Cleaning.Rmd – Data cleaning script where data is joined as well as general cleaning as well creation of EDA plots.<br>
+Model Building.Rmd – Model building script where time series model is fitted. <br>
+
 
 ## Section 3 – How to Reproduce Our Results
 
