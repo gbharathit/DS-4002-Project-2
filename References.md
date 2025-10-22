@@ -1,3 +1,5 @@
+## References
+
 [1] National Oceanic and Atmospheric Administration, “Climate,” National Weather Service. [Online]. Available: https://www.weather.gov/wrh/Climate?wfo=lwx. [Accessed: Oct. 6, 2025]. National Weather Service
 
 [2] A. Coghlan, “A Little Book of R for Time Series.” [Online]. Available: https://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html. [Accessed: Oct. 6, 2025]. A Little Book of R for Time Series
