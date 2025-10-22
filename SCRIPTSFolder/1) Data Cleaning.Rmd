@@ -106,3 +106,4 @@ plot(mintemp_decomposed)
 plot(mintemp_timeseries - mintemp_decomposed$seasonal)
 ```
 
+
